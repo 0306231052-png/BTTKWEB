@@ -1,0 +1,137 @@
+.container{
+    max-width: 90%;
+    margin:auto;
+}
+/*header*/
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.top-bar{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.header-right{
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+}
+.search-bar input{
+    width: 300px;
+    border-radius: 10px;
+    line-height: 25px;
+    border: none;
+    background-color: #E9E9EA;
+    padding-left: 35px;
+}
+.search-input{
+    position: relative;
+}
+.input-left{
+    position: absolute;
+    left: 10px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.input-right{
+    position: absolute;
+    right: 10px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.search-bar{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.nav-icons ul li{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.nav-icons ul{
+    display: flex;
+    gap:20px;
+}
+.nav-icons ul li a{
+   color:black;
+}
+.main-nav ul li a{
+    color: black;
+}
+.main-nav ul {
+    display: flex;
+    gap:40px;
+}
+.nav-icons i{
+    color: rgb(206, 82, 82);
+}
+.main-nav i{
+    color:rgb(235, 134, 168);
+}
+/*content*/
+.content{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.content img{
+    width: 200px;
+    height: 200px;
+}
+.content div{
+    width: 220px;
+
+}
+.top-bar img{
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+}
+/*footer*/
+.footer{
+    display: flex;
+    gap:50px;
+    margin-top: 40px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer-logo img{
+    width: 120px;
+    height: 40px;
+}
+.footer-services{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-supported
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.phone
+{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.gmail
+{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
